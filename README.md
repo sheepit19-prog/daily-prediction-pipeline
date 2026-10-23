@@ -7,7 +7,7 @@ The product ranks the participants of scheduled sports events before they start 
 ## The shape
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph SRC[Upstream]
     P[Event program + results]
     T[Split timing feed]
